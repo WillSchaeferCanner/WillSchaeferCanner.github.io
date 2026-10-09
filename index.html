@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment Importance Calculator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_v2.css">
 </head>
 <body>
   <main class="card">
@@ -30,7 +30,10 @@
         <option value="0.15">Unlimited retakes / can be dropped or replaced</option>
       </select>
 
-      <button type="submit">Calculate importance</button>
+      <div class="buttons">
+        <button type="submit">Calculate importance</button>
+        <button type="button" id="random-btn" class="secondary">Random input</button>
+      </div>
     </form>
 
     <p id="error" class="error" role="alert" hidden></p>
@@ -42,6 +45,6 @@
     </section>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app_v2.js"></script>
 </body>
 </html>
